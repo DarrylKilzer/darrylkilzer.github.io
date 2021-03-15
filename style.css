@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+}
+
+.terminal {
+    font-family: 'Fira Sans', sans-serif;
+    color: #0f0;
+    font-size: .75rem;
+}
+
+a {
+    color: #0bc;
+    text-decoration: none;
+}
+
+.a {
+    color: #fff;
+}
+
+.c {
+    color: #0bc;
+}
+
+.b {
+    color: #ff0096;
+}
+
+.k {
+    animation: change 1s;
+    color: rgb(183, 0, 255);
+}
+
+.op {
+    color: #888888
+}
+
+/* NOTE anims */
+
+@keyframes change {
+    0% {
+        color: #0f0;
+    }
+    50% {
+        color: #0f0;
+    }
+    99% {
+        color: black;
+    }
+}

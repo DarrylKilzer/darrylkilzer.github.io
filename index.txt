@@ -1,0 +1,13 @@
+<span class="a">D$@DarrylKilzer</span>:<span class="b">~</span><span class="c">$</span> cd DarrylKilzer/<!-- kjsdfhkjdhsfkjdshfkj -->About_Me
+<span class="a">D$@DarrylKilzer</span>:<span class="b">~/About_Me</span><span class="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->D$-Intro.txt<br/><br/>
+My favorite code quote, "<span class="k">It's just a button!</span>". <!-- sjkfhskjf -->
+
+<p>Hey There! This is the portfolio website of the one and only D$. You can tell that this is my portfolio, <!-- laglaglaglaglaglaglaglaglaglaglaglag -->by the way that it is.</p>
+<p>This is some stuff about me.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
+<p> This is some of the skills I got, them skillz to pay the billz. Oh and here is my other page<a href="link"> Other Corner Games</a>.</p> <!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
+<p>Here is some more things about me <br><br><br>These are my cool project links or something like that. <a href="link"> Here you go</a>.</p> <!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p> These are links to other professional profiles I has on the Internets, here: <br> <a href="link1">LinkedIn</a> <br> <a href="link2">Github</a> and <br> <a href="link3">Apex Stats</a>.</p>
+
+This is for giving my email for emailing me<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="My email ID">Email</a>.
+
+<p>Even a Man who has nothing can still offer his life. For the Emporer!</p>
