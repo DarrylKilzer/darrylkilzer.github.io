@@ -4,7 +4,7 @@ const printer = new Printer()
 
 printer.file = 'index.txt'
 printer.init()
-const timer = setInterval(runner, 3)
+const timer = setInterval(runner, 30)
 
 function runner() {
     printer.addText()
