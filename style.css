@@ -26,8 +26,7 @@ a {
 }
 
 .k {
-    animation: change 1s;
-    color: rgb(183, 0, 255);
+    animation: change 1s infinite;
 }
 
 .op {
@@ -38,12 +37,24 @@ a {
 
 @keyframes change {
     0% {
-        color: #0f0;
+        color: rgb(30, 255, 0);
     }
-    50% {
-        color: #0f0;
+    14% {
+        color: rgb(251, 255, 0);
     }
-    99% {
-        color: black;
+    28% {
+        color: rgb(255, 0, 0);
+    }
+    42% {
+        color: rgb(0, 255, 242);
+    }
+    56% {
+        color: rgb(0, 4, 255);
+    }
+    70% {
+        color: rgb(255, 0, 0);
+    }
+    84% {
+        color: rgb(234, 0, 255);
     }
 }

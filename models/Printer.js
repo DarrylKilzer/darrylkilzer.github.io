@@ -1,3 +1,5 @@
+import { sleep } from "../utils/Sleep.js"
+
 const terminalElem = document.getElementById('terminal')
 
 export default class Printer {
@@ -7,8 +9,7 @@ export default class Printer {
             this.index = 0,
             this.speed = 3,
             this.file = '',
-            this.accessCount = 0,
-            this.deniedCount = 0
+            this.hidden = true
     }
 
     init() {
@@ -23,11 +24,21 @@ export default class Printer {
 
     updateLastChar() {
         const content = this.TerminalContent
-        content.substring(content.length - 1, content.length) == '|' ? terminalElem.innerHTML = terminalElem.innerHTML.substring(0, content.length - 1) : this.print('|')
+        content.substring(content.length - 1, content.length) == '|' ? terminalElem.innerHTML = terminalElem.innerHTML.substring(0, content.length - 1) : this.index > this.text.length ? '' : this.print('|')
     }
 
     print(str) {
         $('#terminal').append(str)
+        return false
+    }
+
+    printPrompt() {
+        this.hidden = !this.hidden
+        if (this.hidden) {
+            $('#prompt').html('<br>')
+        } else {
+            $('#prompt').html('|')
+        }
         return false
     }
 
