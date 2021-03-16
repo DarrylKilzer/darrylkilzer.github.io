@@ -19,8 +19,12 @@
   <div class="row align-items-center justify-content-center vh-100">
     <div id="terminal" class="col-12 col-md-8 terminal">
     </div>
-    <p id="prompt" class="col-12 col-md-8 terminal"></p>
 
+  </div>
+  <div id="tv" class="col-12 col-md-8 tv" hidden>
+    <div id="term"></div>
+    <div class="flicker"></div>
+    <div class="scanlines"></div>
   </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -32,6 +36,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/rot-js@2/dist/rot.js"></script>
+  <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.js"></script>
+  <script src="https://unpkg.com/jquery.terminal/js/jquery.mousewheel-min.js"></script>
+  <script src="https://unpkg.com/js-polyfills/keyboard.js"></script>
+  <script src="https://unpkg.com/css-vars-ponyfill@2/dist/css-vars-ponyfill.min.js"></script>
+  <script src="game.js"></script>
+  <script src="console.js"></script>
   <script src="index.js" type="module"></script>
 </body>
 

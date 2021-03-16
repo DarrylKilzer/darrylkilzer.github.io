@@ -11,3 +11,4 @@ My favorite code quote, "<span class="k">It's just a button!</span>". <!-- sjkfh
 This is for giving my email for emailing me<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="My email ID">Email</a>.
 
 <p>Even a Man who has nothing can still offer his life. For the Emporer!</p>
+<p class="k" onclick="Game.init()">Click here to play a game</p>
