@@ -1,10 +1,14 @@
 import Printer from "./models/Printer.js";
 
-const printer = new Printer()
+let printer
+let timer
 
-printer.file = 'index.txt'
-printer.init()
-const timer = setInterval(runner, 30)
+function start() {
+    printer = new Printer()
+    printer.file = 'index.txt'
+    printer.init()
+    timer = setInterval(runner, 30)
+}
 
 function runner() {
     printer.addText()
@@ -13,3 +17,5 @@ function runner() {
         setInterval(() => printer.printPrompt(), 400)
     }
 }
+window['start'] = start
+start()

@@ -1,3 +1,12 @@
+const initObj = {
+    display: null,
+    map: {},
+    engine: null,
+    player: null,
+    pedro: null,
+    ananas: null,
+}
+
 var Game = {
     display: null,
     map: {},
@@ -6,9 +15,11 @@ var Game = {
     pedro: null,
     ananas: null,
 
-    init: function () {
-        // @ts-ignore
-        document.body.innerHTML = '<p class="a">Use the arrow keys to move</p><p class="a">Press Space to open boxes and find the ananas to win.</p><p class="a">Avoid (P)edro!</p>'
+    init() {
+        for (const key in initObj) {
+            this[key] = key == 'map' ? {} : initObj[key];
+        }
+        document.body.innerHTML = '<p class="a">Use the arrow keys to move</p><p class="a">Press Q to Quit.</p><p class="a">Press Space to open boxes and find the ananas to win.</p><p class="a">Avoid (P)edro!</p>'
         this.display = new ROT.Display({ spacing: 1.1 });
         document.body.appendChild(this.display.getContainer());
 
@@ -23,10 +34,10 @@ var Game = {
         this.engine.start();
     },
 
-    _generateMap: function () {
+    _generateMap() {
         var digger = new ROT.Map.Digger();
         var freeCells = [];
-
+        this._drawWholeMap()
         var digCallback = function (x, y, value) {
             if (value) { return; }
 
@@ -88,7 +99,11 @@ Player.prototype.act = function () {
 
 Player.prototype.handleEvent = function (e) {
     var code = e.keyCode;
-    if (code == 13 || code == 32) {
+    if (code == 81) {
+        // @ts-ignore
+        window.location.reload()
+    }
+    else if (code == 13 || code == 32) {
         this._checkBox();
         return;
     }
@@ -132,7 +147,9 @@ Player.prototype._checkBox = function () {
     } else if (key == Game.ananas) {
         alert("Hooray! You found an ananas and won this game.");
         Game.engine.lock();
-        window.removeEventListener("keydown", this);
+        // window.removeEventListener("keydown", this);
+        Game.init()
+        Game.engine.unlock();
     } else {
         alert("This box is empty :-(");
     }
@@ -162,9 +179,15 @@ Pedro.prototype.act = function () {
     astar.compute(this._x, this._y, pathCallback);
 
     path.shift();
+    // hacky but this will let pedro capture you
+    if (path.length == 0) {
+        path = [[x, y]]
+    }
     if (path.length == 1) {
         Game.engine.lock();
         alert("Game over - you were captured by Pedro!");
+        Game.init()
+        Game.engine.unlock();
     } else {
         x = path[0][0];
         y = path[0][1];
