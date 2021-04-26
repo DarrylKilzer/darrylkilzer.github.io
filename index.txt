@@ -1,14 +1,14 @@
 <span class="a">D$@DarrylKilzer</span>:<span class="b">~</span><span class="c">$</span> cd DarrylKilzer/<!-- kjsdfhkjdhsfkjdshfkj -->About_Me
 <span class="a">D$@DarrylKilzer</span>:<span class="b">~/About_Me</span><span class="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->D$-Intro.txt<br/><br/>
-My favorite code quote, "<span class="k">It's just a button!</span>". <!-- sjkfhskjf -->
+My favorite code quote, "<span class="c">It's just a button!</span>". <!-- sjkfhskjf -->
 
-<p>This is the portfolio website of the one and only D$. You can tell that this is my portfolio, <!-- laglaglaglaglaglaglaglaglaglaglaglag -->by the way that it is.</p>
-<p>I enjoy software development, dad jokes, and the outdoors.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
-<p>I also enjoy game development and teaching, it is a work in progress, but, check out my page for that here @<a href="https://othercorner.games"> Other Corner Games</a>.</p> <!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p>I've been in the software industry quite a while.<br><br><br>Check out my github <a href="https://github.com/darrylkilzer"> @darrylkilzer</a>.</p> <!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p>This is the portfolio of the one and only D$. You can tell that this is my portfolio, <!-- laglaglaglaglaglaglaglaglaglaglaglag -->by the way that it is.</p>
+<p>I enjoy software development, challenges, dad jokes, and the outdoors.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
+<p>I also enjoy game development and teaching. It is a work in progress, but, check out my tutorial page for that here @<a href="https://othercorner.games"> Other Corner Games</a>.</p> <!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
+<p>I've been around the software industry my entire life, but have been professionally developing games for 8 years, and working in full stack web development for 4 years.<br><br><br>Check out my github <a href="https://github.com/darrylkilzer"> @darrylkilzer</a>.</p> <!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 <p>I also have a linkedIn with some more professional details here: <a href="https://www.linkedin.com/in/darryl-kilzer-jr/">LinkedIn</a>.</p>
 
-I am also giving out my email for emailing me<!-- slightdelayhere-->, feel free to send me an email at <!-- longlonglongcomment --><a href="darrylkilzer@gmail.com">darrylkilzer@gmail.com</a>.
+If you prefer email,<!-- slightdelayhere--> feel free to send me an email at <!-- longlonglongcomment --><a href="darrylkilzer@gmail.com">darrylkilzer@gmail.com</a>.
 
-<p>I love dawn of war quotes, eventually I will build a pretty cool API that uses most of the known, and some of the unknown works around warhammer 40k to generate some pretty neat quotes.</p>
+<p>I always have an exciting and challenging project in the works. Aside from some ios/android and PWA based projects, I am working on a fun API. I love dawn of war quotes and one of my current favorite projects is building an API that uses most of the known, and some of the unknown works around warhammer 40k to generate quotes.</p>
 <p class="k" onclick="Game.init()">Click here to play a console game</p>
