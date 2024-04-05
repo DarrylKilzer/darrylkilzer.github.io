@@ -4,11 +4,11 @@ My favorite code quote, "<span class="c">It's just a button!</span>". <!-- sjkfh
 
 <p>This is the portfolio of the one and only D$. You can tell that this is my portfolio, <!-- laglaglaglaglaglaglaglaglaglaglaglag -->by the way that it is.</p>
 <p>I enjoy software development, challenges, dad jokes, and the outdoors.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
-<p>I also enjoy game development and teaching. It is a work in progress, but, check out my tutorial page for that here @<a href="https://othercorner.games"> Other Corner Games</a>.</p> <!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p>I've been around the software industry my entire life, but have been professionally developing games for 8 years, and working in full stack web development for 4 years.<br><br><br>Check out my github <a href="https://github.com/darrylkilzer"> @darrylkilzer</a>.</p> <!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p>I am and avid game developer, software engineer, and instructor.</p> <p> This is a work in progress, but, check out my tutorial page for game dev instruction over here @<a href="https://othercorner.games"> Other Corner Games</a>.</p> <!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
+<p>I've been around the software industry my entire life, but have been professionally developing games since 2001, and working in full stack web development since 2016.<br><br><br>Check out my github <a href="https://github.com/darrylkilzer"> @darrylkilzer</a>.</p> <!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 <p>I also have a linkedIn with some more professional details here: <a href="https://www.linkedin.com/in/darryl-kilzer-jr/">LinkedIn</a>.</p>
 
 If you prefer email,<!-- slightdelayhere--> feel free to send me an email at <!-- longlonglongcomment --><a href="darrylkilzer@gmail.com">darrylkilzer@gmail.com</a>.
 
 <p>I always have an exciting and challenging project in the works. Aside from some ios/android and PWA based projects, I am working on a fun API. I love dawn of war quotes and one of my current favorite projects is building an API that uses most of the known, and some of the unknown works around warhammer 40k to generate quotes.</p>
-<p class="k" onclick="Game.init()">Click here to play a console game</p>
+<p class="k" onclick="Game.init()">Click here to play a console game on my page.</p>

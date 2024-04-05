@@ -19,7 +19,7 @@ var Game = {
         for (const key in initObj) {
             this[key] = key == 'map' ? {} : initObj[key];
         }
-        document.body.innerHTML = '<p class="a">Use the arrow keys to move</p><p class="a">Press Q to Quit.</p><p class="a">Press Space to open boxes and find the ananas to win.</p><p class="a">Avoid (P)edro!</p>'
+        document.body.innerHTML = '<p class="a">Use the arrow keys to move</p><p class="a">Press Q to Quit.</p><p class="a">Press Space to open boxes and find the fallen star to win.</p><p class="a">Avoid (P)rotagonist!</p>'
         this.display = new ROT.Display({ spacing: 1.1 });
         document.body.appendChild(this.display.getContainer());
 
